@@ -31,7 +31,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
     background: var(--background) !important;
     color: var(--text-color) !important;
     transition: all 0.3s ease;
@@ -340,7 +340,7 @@ nav .btn:hover{
         display: none;
     }
     main {
-        overflow-x: auto; 
+        overflow: auto; 
     }
     .Clock{
         width:50%;
@@ -358,7 +358,7 @@ nav .btn:hover{
         box-shadow: 0 0 20px gray;
         border-radius: 20px;
         width: 350px;
-        height: 380px;
+        height: 370px;
     }
     .timeLap-main{
         height: 175px;  
@@ -370,7 +370,7 @@ nav .btn:hover{
         box-shadow: 0 0 20px gray;
         border-radius: 20px;
         width: 350px;
-        height: 380px;
+        height: 370px;
     }
     #runTimer h1{
         padding-top: 20px;
